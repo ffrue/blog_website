@@ -1,0 +1,174 @@
+body {
+  background-color: #6c799a;
+}
+
+.col-lg-4 {
+  margin: auto;
+}
+.col-lg-3 {
+  margin: auto;
+}
+
+.container-fluid {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.desc {
+  font-size: 1.2rem;
+  margin: auto;
+  width:80%;
+}
+
+.btn:hover {
+  background-color: #343F56 !important;
+  color: #387C6D !important;
+}
+
+h1 {
+  color: #F8F5F1;
+  font-size: 6rem;
+  padding: 1%;
+}
+
+h2 {
+  color: #F8F5F1;
+  font-size: 2rem;
+}
+
+h3 {
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+hr {
+  width: 70%;
+  margin: 3% auto 3% auto;
+  color: #387C6D;
+  border: 2px solid;
+}
+
+/* Navbar */
+
+.navbar {
+  background-color: #343F56;
+  padding: 0.5% 1% 0.5% 1%;
+  font-size: 1.2rem;
+}
+
+.nav-item {
+  padding-left: 1rem;
+}
+
+.navbar-brand {
+  font-size: 1.3rem;
+}
+
+.here {
+  font-weight: bold;
+}
+
+/* Cards */
+
+.card {
+  color: #F8F5F1;
+  background-color: #387C6D;
+  padding: 2% 0 2% 0;
+  margin: 5% 0 5% 0;
+}
+
+.card-title {
+  font-size: 1.6rem;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+/* Articles */
+
+.language {
+  display: inline;
+
+  padding: 0.2% 1% 0.2% 1%;
+  margin: 0 1% auto 1%;
+
+  border-radius: 20px;
+  border: 1px solid #6c799a;
+
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.german {
+  background-color: rgb(66,134,119);
+}
+.english {
+  background-color: rgb(46,114,89);
+}
+
+.recommend {
+  color: #F8F5F1;
+  background-color: #343F56;
+
+  border: 2px solid white;
+  border-radius: 5px;
+
+  margin: auto;
+  margin-bottom: 5%;
+
+}
+
+.article-card {
+  padding: 0;
+  margin: auto;
+  margin-bottom: 5%;
+}
+
+.lab-theory {
+  background-color: #398AB9;
+}
+.lab-policy {
+  background-color: #E9896A;
+}
+.lab-int {
+  background-color: #D96098;
+}
+.lab-history {
+  background-color: #91C483;
+}
+
+/* Footer */
+
+.bottom {
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+
+  background-color: #343F56;
+  padding: 0.25%;
+
+  text-align: center;
+  font-size: 0.9rem;
+  color: #387C6D;
+}
+
+/* About me */
+
+/*
+#CV-text {
+  width:60%;
+  margin: auto;
+  padding-top: 0;
+  text-align: left;
+  color: #F8F5F1;
+  font-weight: lighter;
+}
+
+tr > * + * {
+  padding-left: 4em;
+  font-weight: lighter;
+  font-size: 1.1rem;
+} */
