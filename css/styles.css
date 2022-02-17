@@ -1,5 +1,10 @@
 body {
-  background-color: #6c799a;
+  background-color: #7386ac;
+}
+@media (min-width: 1201px) {
+  body {
+    margin-top: 4%;
+  }
 }
 
 .col-lg-4 {
@@ -54,7 +59,18 @@ hr {
   background-color: #343F56;
   padding: 0.5% 1% 0.5% 1%;
   font-size: 1.2rem;
+  z-index: 6;
 }
+@media (min-width: 1201px) {
+.navbar {
+position: fixed;
+top: 0px;
+left: 0;
+right: 0;
+}
+}
+
+
 
 .nav-item {
   padding-left: 1rem;
@@ -77,6 +93,13 @@ hr {
   margin: 5% 0 5% 0;
 }
 
+.intro-card-soon {
+  color: #F8F5F1;
+  background-color: #5ba090;
+  padding: 2% 0 2% 0;
+  margin: 5% 0 5% 0;
+}
+
 .card-title {
   font-size: 1.6rem;
 }
@@ -85,6 +108,16 @@ hr {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
+
+@media (min-width:1200px) {
+  .intro-card {
+    height: 150px;
+  }
+  .intro-card-soon {
+    height: 150px;
+  }
+}
+
 
 /* Articles */
 
@@ -95,7 +128,7 @@ hr {
   margin: 0 1% auto 1%;
 
   border-radius: 20px;
-  border: 1px solid #6c799a;
+  border: 1px solid #9d9fa3;
 
   font-size: 1.2rem;
   font-weight: bold;
@@ -139,6 +172,53 @@ hr {
   background-color: #91C483;
 }
 
+/* Blog Texts */
+.title {
+  font-size: 3.5rem;
+  padding-bottom: 1.5%;
+}
+
+.text {
+  color: #F8F5F1;
+  font-size: 1.2rem;
+}
+
+.disclaimer {
+  color: #e6ebf3;
+  font-style: italic;
+}
+
+.formula {
+  font-style: italic;
+  font-size: 1.5rem;
+  text-align: center;
+}
+@media (max-width: 1201px) {
+  .formula {
+    font-style: italic;
+    text-align: left;
+    font-size: 1.2rem;
+  }
+}
+
+.fig-desc {
+  font-style: italic;
+  font-weight: lighter;
+  padding-top: 1%;
+}
+
+.figure {
+  text-align: center;
+}
+.plotly {
+  width: 90%;
+  margin: auto;
+}
+.plotly-graph-div {
+  text-align: center;
+  margin: auto;
+}
+
 /* Footer */
 
 .bottom {
@@ -156,6 +236,34 @@ hr {
 }
 
 /* About me */
+
+@media (min-width: 1201px) {
+.profile {
+  width: 60%;
+  border-radius: 50%;
+  border: 2px solid #F8F5F1;
+}
+}
+
+@media (min-width: 992px) and (max-width:1200px) {
+.profile {
+  width: 110%;
+  border-radius: 50%;
+  border: 2px solid #F8F5F1;
+}
+.medium-distance {
+  padding-right: 5%;
+}
+}
+
+@media (max-width: 991px) {
+.profile-mobile {
+  width: 30%;
+  border-radius: 50%;
+  border: 2px solid #F8F5F1;
+}
+}
+
 
 /*
 #CV-text {
