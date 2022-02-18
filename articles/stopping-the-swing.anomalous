@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>The Big Picture</title>
-  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="../favicon.ico">
 
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -14,6 +14,7 @@
   <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
 
   <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="./images/stopping-the-swing/images.css">
 </head>
 
 <body>
@@ -64,13 +65,12 @@
         rebalancing the global economy.
       </p>
 
-      <!-- Source Code Plotly -->
       <div class="figure">
-        <div class="plotly">
+        <div id="cabs-dynamic">
           <partial src="./images/stopping-the-swing/cabs-dynamic.html" />
         </div>
         <p class="fig-desc">
-          Own figure, data from Worldbank ; interactive version here
+          Own figure, data from Worldbank
         </p>
       </div>
 
@@ -84,7 +84,7 @@
       </p>
 
       <div class="figure">
-        <img src="./images/stopping-the-swing/target.png" alt="target-2-balances" style="width:50%;"/>
+          <img src="./images/stopping-the-swing/target.png" id="target"/>
         <p class="fig-desc">
           Target-2 Balances
         </p>
@@ -167,6 +167,7 @@
       </p>
 
       <div class="figure">
+        <img src="./images/stopping-the-swing/cab_exr.png"  id="cab-exr"/>
         <p class="fig-desc">
           Own figure, data from Worldbank
         </p>
@@ -187,7 +188,12 @@
         and its agents are not rational in the original sense, so that their outcomes are also mostly irrational and inefficient. A good way to observe those irrational outcomes is to look at the interplay of inflation differences and exchange rates.
       </p>
 
-      Own figure, data from Worldbank
+      <div class="figure">
+          <img src="./images/stopping-the-swing/inf_exr.png" id="inf-exr"/>
+        <p class="fig-desc">
+          Own figure, data from Worldbank
+        </p>
+      </div>
 
       <p>
         The figure depicts the relationship between inflation differences (between a country and the USA) and the exchange rate (of a country’s currency relative to the US-Dollar). In a rational world, a currency should depreciate when the domestic
@@ -291,7 +297,12 @@
         different estimates, have a look at the EQCHANGE database):
       </p>
 
-      Figure from Cline 2017 (PIIE)
+      <div class="figure">
+          <img src="./images/stopping-the-swing/feers williamson.png" id="feers"/>
+        <p class="fig-desc">
+          Figure from Cline 2017 (PIIE)
+        </p>
+      </div>
 
       <p>
         In the figure, a point above the horizontal zero-line indicates that the exchange rate of a currency relative to the US-Dollar (red) or the average of all their trading partners (blue) is too low. Since the USA has very high CA deficits, it

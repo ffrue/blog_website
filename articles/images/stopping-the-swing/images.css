@@ -1,0 +1,43 @@
+#cabs-dynamic {
+  width: 80%;
+  margin: auto;
+}
+
+#target{
+  width: 60%;
+}
+
+#cab-exr {
+  width:70%;
+}
+
+#inf-exr {
+  width: 70%;
+}
+
+#feers {
+
+}
+
+@media (max-width: 1300px) {
+  #cabs-dynamic {
+    width: 100%;
+    margin: auto;
+  }
+
+  #target{
+    width: 80%;
+  }
+
+  #cab-exr {
+    width:100%;
+  }
+
+  #inf-exr {
+    width: 100%;
+  }
+
+  #feers {
+
+  }
+}
