@@ -1,6 +1,5 @@
-#cabs-dynamic {
-  width: 80%;
-  margin: auto;
+#cab-static {
+  width:70%;
 }
 
 #target{
@@ -19,10 +18,9 @@
 
 }
 
-@media (max-width: 1300px) {
-  #cabs-dynamic {
+@media (max-width: 430px) {
+  #cab-static {
     width: 100%;
-    margin: auto;
   }
 
   #target{
