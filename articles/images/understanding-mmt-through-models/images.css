@@ -1,17 +1,27 @@
 #crowding-out {
   width: 70%
 }
-
 #keen {
   width: 90%;
+}
+#godley-sfc {
+  width: 60%;
 }
 
 @media (max-width: 600px) {
   #crowding-out {
-    width: 90%
+    width: 100%
   }
-
+  #money-market {
+    width: 100%;
+  }
+  #ehnts {
+    width: 100%;
+  }
   #keen {
+    width: 100%;
+  }
+  #godley-sfc {
     width: 100%;
   }
 }
