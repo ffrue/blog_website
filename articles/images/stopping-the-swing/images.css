@@ -1,5 +1,5 @@
 #cab-static {
-  width:70%;
+  width:80%;
 }
 
 #target{
@@ -7,18 +7,18 @@
 }
 
 #cab-exr {
-  width:70%;
+  width:80%;
 }
 
 #inf-exr {
-  width: 70%;
+  width: 80%;
 }
 
 #feers {
 
 }
 
-@media (max-width: 430px) {
+@media (max-width: 600px) {
   #cab-static {
     width: 100%;
   }
