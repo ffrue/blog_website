@@ -2,9 +2,9 @@ body {
   background-color: #7386ac;
 }
 @media (min-width: 1201px) {
-  body{
+  /* body{
     margin-top: 3%;
-  }
+  } */
 }
 
 .col-lg-4 {
@@ -226,6 +226,7 @@ right: 0;
   .title {
     padding-top: 5%;
     padding-bottom: 5%;
+}
 }
 @media (max-width: 1201px) {
   .title {
