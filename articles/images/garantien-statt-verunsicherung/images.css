@@ -1,0 +1,42 @@
+#AN-Beiträge {
+  width: 70%;
+
+}
+
+#Gesamtausgaben {
+  width: 70%;
+}
+
+#Finanzierung {
+  width: 70%;
+}
+
+#IAQ {
+  width: 90%;
+}
+
+#Steuern {
+  width: 70%;
+}
+
+@media (max-width: 600px) {
+  #AN-Beiträge {
+    width: 100%;
+  }
+
+  #Gesamtausgaben {
+    width: 100%;
+  }
+
+  #Finanzierung {
+    width: 100%;
+  }
+
+  #IAQ {
+    width: 100%;
+  }
+
+  #Steuern {
+    width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+#scoreboard {
+  width: 90%;
+}
+
+#lcu {
+  width: 70%;
+}
+
+
+
+@media (max-width: 600px) {
+  #scoreboard {
+    width: 100%;
+  }
+
+  #lcu {
+    width: 100%;
+  }
+}

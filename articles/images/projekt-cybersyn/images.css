@@ -1,0 +1,45 @@
+#Klassifikation {
+  width: 70%;
+}
+
+#VSM {
+  width: 50%;
+}
+
+#Rekursion {
+  width: 70%;
+}
+
+#Cybersyn {
+  width: 60%;
+}
+
+#Teamorga {
+  width: 60%;
+}
+
+@media (max-width: 600px) {
+  #Klassifikation {
+    width: 100%;
+  }
+
+  #VSM {
+    width: 100%;
+  }
+
+  #Opsroom {
+    width: 100%;
+  }
+
+  #Rekursion {
+    width: 100%;
+  }
+
+  #Cybersyn {
+    width: 100%;
+  }
+
+  #Teamorga {
+    width: 100%;
+  }
+}
